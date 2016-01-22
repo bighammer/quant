@@ -6,11 +6,11 @@
   - dynamic draw: It seems matplotlib is OK to draw dynamically.
 
 
-* How to analyse a trading system's performance ?
+* How to analyze a trading system's performance ?
   - Start with a simple one: MA
 *
 
 ## Plans
 * candle sticks
   - Do I need to create a candle stick class ? or make use of matplotlib.Finance
-  - 
+  -

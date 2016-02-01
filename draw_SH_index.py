@@ -13,6 +13,15 @@ import numpy as np
 import pandas as pd
 
 
+#
+# Constant definition
+#
+
+# Initial capital is 1,000,000
+INIT_CAPITAL = 1000000
+
+#
+
 df = pd.read_excel('.\SH_1DAY_DATA.xlsx')
 
 df['Date'] = df['Date'].str.slice(0,10)
@@ -35,6 +44,26 @@ def sma(x, n):
     # print sma
 
     return sma
+
+
+# Strategy 01
+#   simple moving average stragety
+# 
+
+# Performance metrics review
+
+#
+#y= np.array([1,5,3,8,12,6,20,32])
+#x= np.array(range(0,len(y),1))
+#sma2= sma(y,2)
+#sma3= sma(y,3)
+'''print x
+print type(x)
+print y
+print type(y)
+'''
+#plt.plot(x,y,"ro",sma2,y,"-", sma3,y,"-")
+#plt.show()
 
 """
     Moving Average Rules
@@ -98,3 +127,4 @@ for i in range(0, len(df['Date'])):
 
 #plt.plot(x,y,"ro",sma2,y,"-", sma3,y,"-")
 #plt.show()
+

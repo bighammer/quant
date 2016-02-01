@@ -76,7 +76,7 @@ for i in range(0, len(df['Date'])):
        Sell if today’s close is the lowest close of the past x days
 """
 # Prepare the data
-# - create two new columes: sma_M, sma_N
+# - create two new columes:  sma_M, sma_N
 # - sma is based on *close* price
 
 """

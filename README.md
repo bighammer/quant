@@ -25,5 +25,6 @@
 |symbols|股票代码|Stock or Commodity ID, it could also mean some index such as CPI,etc.|
 |Commodity|商品|Items of future markets, such as Gold, Oil, Wheat, etc.|  
 |Market |市场|Defferent stock, Commodity markets|
-|Profit |利润||
+|Profit |利润|Revenue minus cost. The amount one makes on a transaction.|
 |Security|证券|General name of any stock or future or others|
+|Drawdown|回撤||

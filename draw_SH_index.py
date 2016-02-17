@@ -18,7 +18,8 @@ import pandas as pd
 #
 
 # Initial capital is 1,000,000
-INIT_CAPITAL = 1000000
+# Equity = stocks + cash
+
 
 #
 
@@ -48,7 +49,7 @@ def sma(x, n):
 
 # Strategy 01
 #   simple moving average stragety
-# 
+#
 
 # Performance metrics review
 
@@ -127,4 +128,3 @@ for i in range(0, len(df['Date'])):
 
 #plt.plot(x,y,"ro",sma2,y,"-", sma3,y,"-")
 #plt.show()
-

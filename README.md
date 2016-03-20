@@ -14,3 +14,5 @@
 * candle sticks
   - Do I need to create a candle stick class ? or make use of matplotlib.Finance
   -
+
+# Finance Terms

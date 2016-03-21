@@ -15,6 +15,9 @@
   - Do I need to create a candle stick class ? or make use of matplotlib.Finance
   -
 
+
+# Finance Terms
+=======
 # Terms
 ** Note: The description is not from dictionary. Most of them is based on my personal understanding **   
 
@@ -28,3 +31,4 @@
 |Profit |利润|Revenue minus cost. The amount one makes on a transaction.|
 |Security|证券|General name of any stock or future or others|
 |Drawdown|回撤||
+

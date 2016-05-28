@@ -11,7 +11,7 @@
 # 上证50          sh000016
 # 超大盘         000043
 # 创业板指数       399006
-# 上证金融        000038          
+# 上证金融        000038
 # 地产指数        000006
 
 """
@@ -51,17 +51,17 @@ import numpy as np
 import pandas as pd
 import urllib2
 
-# 
+#
 def getCurrentStockData(code):
     try:
         url="http://hq.sinajs.cn/list="+code
         data = urllib2.urlopen(url).read()
         return data
-    except Exception,e:  
+    except Exception,e:
         print e
 
 #def parseData(data):
-    
+
 
 data = getCurrentStockData("sh000001")
 print data

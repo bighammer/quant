@@ -1,5 +1,25 @@
-# Finance statistics with Python
 
+
+# Howto
+How to deal with proxy (access internet data via proxy)
+
+## Windows command window( cmd ) setup
+
+set HTTPS_PROXY=http://username:passwd@proxy.huawei.com:8080
+
+set HTTP_PROXY=http://username:passwd@proxy.huawei.com:8080
+
+## git setup
+
+git config -l # check the current value of configuration
+
+git config --global http.proxy=http://y00318732:)ssdlh19883)@proxy.huawei.com:8080
+
+git config --global http.proxy=http://y00318732:)ssdlh19883)@proxy.huawei.com:8080
+
+git config --global http.sslverify=false
+
+# Finance statistics with Python
 ## Basics
 * How to prepare data to be processed ?
   - **Note: data needs to be with source file.**
@@ -30,5 +50,4 @@
 |Market |市场|Defferent stock, Commodity markets|
 |Profit |利润|Revenue minus cost. The amount one makes on a transaction.|
 |Security|证券|General name of any stock or future or others|
-|Drawdown|回撤||
-
+|Drawdown|回撤|Drawdown from the peak|

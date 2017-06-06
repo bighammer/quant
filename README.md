@@ -13,9 +13,9 @@ set HTTP_PROXY=http://username:passwd@proxy.huawei.com:8080
 
 git config -l # check the current value of configuration
 
-git config --global http.proxy=http://y00318732:)ssdlh19883)@proxy.huawei.com:8080
+git config --global http.proxy=http://usr:passwd@proxy.huawei.com:8080
 
-git config --global http.proxy=http://y00318732:)ssdlh19883)@proxy.huawei.com:8080
+git config --global http.proxy=http://usr:passwd@proxy.huawei.com:8080
 
 git config --global http.sslverify=false
 
